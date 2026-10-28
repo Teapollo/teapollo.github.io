@@ -1,3 +1,170 @@
-<meta name="google-site-verification" content="U2v_Q_3R6k2hM4OfGcJZq8B1wR0XtP2E57RCRURsI_4" />
-<h1>Alan Nguyen</h1>
-<p>Software Developer. Project: <a href="/tidydocs/">TidyDocs for Google Docs</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="U2v_Q_3R6k2hM4OfGcJZq8B1wR0XtP2E57RCRURsI_4" />
+  <title>Alan Nguyen — Developer</title>
+  <meta name="description" content="Personal site of Alan Nguyen. Creator of TidyDocs for Google Docs." />
+  <style>
+    :root {
+      --peach: #f5a573;
+      --peach-hover: #ee935c;
+      --peach-soft: #fdf3ec;
+      --peach-dark: #a85422;
+      --bg: #fcfaf7;
+      --card: #ffffff;
+      --text: #2d3748;
+      --text-muted: #718096;
+      --border: #eee7df;
+      --radius: 12px;
+      --shadow: 0 4px 16px rgba(45, 55, 72, 0.05);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Google Sans", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 680px;
+      margin: 60px auto 40px auto;
+      padding: 0 20px;
+      flex: 1;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 99px;
+      background: var(--peach-soft);
+      color: var(--peach-dark);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 10px 0;
+      color: #1a202c;
+      letter-spacing: -0.5px;
+    }
+    .bio {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin: 0 0 32px 0;
+    }
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+      transition: transform 0.15s, box-shadow 0.15s;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .project-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(245, 165, 115, 0.15);
+      border-color: #ddcfc2;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .project-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a202c;
+      margin: 0;
+    }
+    .project-tag {
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--peach-soft);
+      color: var(--peach-dark);
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .project-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin: 0;
+      line-height: 1.5;
+    }
+    .links-row {
+      display: flex;
+      gap: 16px;
+      margin-top: 24px;
+      font-size: 14px;
+    }
+    .links-row a {
+      color: var(--peach-dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .links-row a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      background: #ffffff;
+      padding: 24px 20px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="badge">Developer</div>
+    <h1>Alan Nguyen</h1>
+    <p class="bio">Building clean, high-performance software tools. Focused on systems, robotics, and client-side web utilities.</p>
+
+    <div class="section-title">Projects</div>
+    <a href="/tidydocs/" class="project-card">
+      <div class="project-header">
+        <h2 class="project-title">TidyDocs</h2>
+        <span class="project-tag">Google Docs Add-on</span>
+      </div>
+      <p class="project-desc">A fast, 100% free client-side formatting and sorting engine for Google Docs running on V8. Merges broken PDF line wraps, converts AI markdown, and sorts bibliographies.</p>
+    </a>
+
+    <div class="section-title">Connect &amp; Support</div>
+    <div class="links-row">
+      <a href="mailto:alannguyen1306@gmail.com">Email</a>
+      <span>&bull;</span>
+      <a href="https://github.com/teapollo" target="_blank">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://ko-fi.com/S0M829K7TK" target="_blank">Support on Ko-fi</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Alan Nguyen. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
